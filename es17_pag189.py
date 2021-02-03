@@ -12,7 +12,7 @@ def geografia():
 
     domanda = input("Inserisci una capitale per sapere la sua nazione: ")
     if domanda not in diz:
-        print("Errore: non hai inserito questa nazione nel dizionario.")
+        print("Errore: non hai inserito questa capitale nel dizionario.")
     else:
         risposta = diz[domanda]
         print(risposta)

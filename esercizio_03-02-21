@@ -10,11 +10,11 @@ import math
 
 def nuovo_diz(media):
     n_diz = {}
-    if media in range(18,23):
+    if media in range(18,24):
         n_diz["18-23"] = media
-    elif media in range(24, 26):
+    elif media in range(24, 27):
         n_diz["24-26"] = media
-    elif media in range(27, 30):
+    elif media in range(27, 31):
         n_diz["27-30"] = media
         
     return n_diz

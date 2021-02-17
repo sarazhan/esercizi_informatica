@@ -1,3 +1,8 @@
+'''
+Consegna 18/02/21: un'azienda vende prodotti in tutta italia e la rete di vendita e suddivisa in quattro zone:
+Nord, Centro, Sud e Isole. Dopo aver acquistato in un array, il fatturato nelle quattro zone calcola 
+il totale del fatturato e i valori in percentuale delle vendite nelle quattro zone rispetto al totale. 
+'''
 def fatturato():
     nord = int(input("Fatturato Nord: "))
     centro = int(input("Fatturato Centro: "))
